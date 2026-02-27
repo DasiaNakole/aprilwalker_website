@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>April Walker | Cybersecurity Portfolio</title>
+  <meta
+    name="description"
+    content="April Walker cybersecurity portfolio featuring credentials, focus areas, and security operations projects."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">April Walker</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#experience">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero panel reveal" data-interactive>
+      <div class="hero-copy">
+        <p class="eyebrow">Cybersecurity Analyst | Defensive Security</p>
+        <h1>
+          Protecting systems, people, and data with
+          <span class="hero-accent">holographic-ready security operations</span>.
+        </h1>
+        <div class="headline-rotator" aria-live="polite">
+          <span class="rotator-label">Current focus</span>
+          <strong id="hero-rotator-text">Detection engineering for suspicious authentication activity</strong>
+        </div>
+        <p class="hero-text">
+          April Walker is building a cybersecurity portfolio focused on detection engineering,
+          incident response, and risk reduction through clear process and measurable outcomes.
+        </p>
+        <div class="hero-mini-stats" aria-label="Quick performance indicators">
+          <div class="mini-stat" data-interactive>
+            <span>Alert Triage</span>
+            <strong id="hero-metric-1">08m</strong>
+            <small>avg initial review</small>
+          </div>
+          <div class="mini-stat" data-interactive>
+            <span>Coverage</span>
+            <strong id="hero-metric-2">05</strong>
+            <small>log source categories</small>
+          </div>
+          <div class="mini-stat" data-interactive>
+            <span>Workflow</span>
+            <strong id="hero-metric-3">NIST</strong>
+            <small>response-aligned process</small>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="projects.html">View Projects</a>
+          <a class="btn btn-outline" href="#credentials">View Credentials</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal" data-interactive aria-label="Security metrics summary">
+        <div class="hero-card-header">
+          <h2>Security Snapshot</h2>
+          <span class="live-pill"><i></i>Live Style</span>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-tile">
+            <p>Focus Area</p>
+            <strong>SOC / IR</strong>
+          </article>
+          <article class="metric-tile">
+            <p>Frameworks</p>
+            <strong>NIST / MITRE</strong>
+          </article>
+          <article class="metric-tile">
+            <p>Strength</p>
+            <strong>Threat Triage</strong>
+          </article>
+          <article class="metric-tile">
+            <p>Portfolio</p>
+            <strong>Hands-On Labs</strong>
+          </article>
+        </div>
+        <div class="hero-telemetry" aria-label="Simulated telemetry">
+          <div class="telemetry-head">
+            <span>Signal Confidence</span>
+            <strong id="hero-confidence-value">92%</strong>
+          </div>
+          <div class="telemetry-bars" aria-hidden="true">
+            <span style="--bar: 92%; --delay: 0s;"></span>
+            <span style="--bar: 68%; --delay: .12s;"></span>
+            <span style="--bar: 84%; --delay: .2s;"></span>
+            <span style="--bar: 57%; --delay: .28s;"></span>
+            <span style="--bar: 73%; --delay: .36s;"></span>
+            <span style="--bar: 88%; --delay: .44s;"></span>
+            <span style="--bar: 61%; --delay: .52s;"></span>
+            <span style="--bar: 95%; --delay: .6s;"></span>
+            <span style="--bar: 79%; --delay: .68s;"></span>
+            <span style="--bar: 70%; --delay: .76s;"></span>
+            <span style="--bar: 86%; --delay: .84s;"></span>
+            <span style="--bar: 63%; --delay: .92s;"></span>
+          </div>
+        </div>
+        <div class="terminal-feed" aria-live="polite">
+          <div class="terminal-feed__header">
+            <span>Response Queue</span>
+            <span class="terminal-feed__status">MONITORING</span>
+          </div>
+          <ul id="hero-feed-list">
+            <li><span>16:42:05</span> Correlated failed logins across identity and VPN logs</li>
+            <li><span>16:42:18</span> MFA enforcement reduced repeat attempts in test scenario</li>
+            <li><span>16:42:39</span> Triage note created with severity rationale and scope</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section-grid">
+      <article class="panel reveal" data-interactive>
+        <p class="eyebrow">About</p>
+        <h2>Cybersecurity professional focused on operational readiness</h2>
+        <p>
+          This site is structured for recruiters, hiring managers, and teams who want a clear
+          view of April Walker's capabilities, credentials, and project work. The visual system
+          draws from a security-dashboard style with a strong purple and black palette.
+        </p>
+      </article>
+      <article class="panel reveal" data-interactive>
+        <p class="eyebrow">Core Capabilities</p>
+        <ul class="tag-list">
+          <li>Incident Response</li>
+          <li>SIEM Monitoring</li>
+          <li>Threat Detection</li>
+          <li>Log Analysis</li>
+          <li>Vulnerability Management</li>
+          <li>Security Documentation</li>
+          <li>MFA / Identity Controls</li>
+          <li>Risk Assessment</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="credentials" class="panel stacked-section reveal" data-interactive>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Credentials</p>
+          <h2>Certifications, education, and training</h2>
+        </div>
+        <span class="pill">Replace placeholders with April's exact credentials</span>
+      </div>
+
+      <div class="cards-3">
+        <article class="info-card reveal" data-interactive>
+          <h3>Certifications</h3>
+          <ul>
+            <li>CompTIA Security+ (example placeholder)</li>
+            <li>CompTIA CySA+ (example placeholder)</li>
+            <li>ISC2 CC / SSCP (example placeholder)</li>
+            <li>Google Cybersecurity Certificate (example placeholder)</li>
+          </ul>
+        </article>
+        <article class="info-card reveal" data-interactive>
+          <h3>Education</h3>
+          <ul>
+            <li>B.S. in Cybersecurity / IT (placeholder)</li>
+            <li>Relevant coursework: networking, forensics, secure systems</li>
+            <li>Capstone project in SOC simulation / defensive ops</li>
+          </ul>
+        </article>
+        <article class="info-card reveal" data-interactive>
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>Splunk / Microsoft Sentinel / ELK (placeholders)</li>
+            <li>Wireshark, Nmap, Nessus</li>
+            <li>Windows / Linux administration</li>
+            <li>Python / Bash for automation support</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="panel stacked-section reveal" data-interactive>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Experience Narrative</p>
+          <h2>How April approaches incident handling and security improvement</h2>
+        </div>
+      </div>
+
+      <div class="workflow">
+        <article class="workflow-step reveal" data-interactive>
+          <h3>Detect</h3>
+          <ul>
+            <li>Monitor SIEM alerts and anomalous login patterns</li>
+            <li>Validate signal quality and identify false positives</li>
+            <li>Prioritize by business impact and severity</li>
+          </ul>
+        </article>
+        <article class="workflow-step reveal" data-interactive>
+          <h3>Analyze</h3>
+          <ul>
+            <li>Correlate logs across identity, endpoint, and network sources</li>
+            <li>Review indicators of compromise and attack chain progression</li>
+            <li>Document scope and likely root cause</li>
+          </ul>
+        </article>
+        <article class="workflow-step reveal" data-interactive>
+          <h3>Respond</h3>
+          <ul>
+            <li>Contain affected accounts or hosts</li>
+            <li>Coordinate remediation steps and validation checks</li>
+            <li>Track evidence and action timeline for reporting</li>
+          </ul>
+        </article>
+        <article class="workflow-step reveal" data-interactive>
+          <h3>Improve</h3>
+          <ul>
+            <li>Recommend control hardening (MFA, policies, detections)</li>
+            <li>Update runbooks and response playbooks</li>
+            <li>Measure outcomes and close gaps</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="signal-journey panel reveal" data-interactive aria-label="Cybersecurity workflow journey">
+      <div class="journey-sticky">
+        <p class="eyebrow">Interactive Scroll Section</p>
+        <h2>Security operations signal flow</h2>
+        <p>
+          A more immersive scroll presentation for April's portfolio. As visitors move down the
+          page, each phase highlights how signals become decisions, actions, and improvements.
+        </p>
+      </div>
+      <div class="journey-steps">
+        <article class="journey-card reveal" data-interactive>
+          <span class="journey-index">01</span>
+          <h3>Telemetry Intake</h3>
+          <p>Identity, endpoint, firewall, and cloud logs are normalized to support triage.</p>
+        </article>
+        <article class="journey-card reveal" data-interactive>
+          <span class="journey-index">02</span>
+          <h3>Alert Validation</h3>
+          <p>Events are correlated and classified to remove false positives and prioritize scope.</p>
+        </article>
+        <article class="journey-card reveal" data-interactive>
+          <span class="journey-index">03</span>
+          <h3>Containment Actions</h3>
+          <p>Accounts, hosts, or network paths are isolated with documented response decisions.</p>
+        </article>
+        <article class="journey-card reveal" data-interactive>
+          <span class="journey-index">04</span>
+          <h3>Hardening Feedback Loop</h3>
+          <p>Lessons learned become improved detections, stronger controls, and cleaner runbooks.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-grid">
+      <article class="panel dashboard-card reveal" data-interactive>
+        <p class="eyebrow">Project Highlights</p>
+        <h2>Security dashboards and case studies</h2>
+        <p>
+          April's project page can showcase academic simulations, homelab exercises, threat
+          hunts, vulnerability remediation work, and incident response workflows similar to the
+          examples you shared.
+        </p>
+        <a class="btn btn-solid" href="projects.html">Open Projects Page</a>
+      </article>
+
+      <article id="contact" class="panel contact-card reveal" data-interactive>
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:aprillwalker11@yahoo.com">aprillwalker11@yahoo.com</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/aprilviolet" aria-label="April Walker LinkedIn profile">linkedin.com/in/aprilviolet</a></li>
+          <li>GitHub: <a href="https://github.com/awalker816" aria-label="April Walker GitHub profile">github.com/awalker816</a></li>
+        </ul>
+        <p class="muted">Replace any remaining placeholders with April's preferred public contact details.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> April Walker. Cybersecurity Portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
